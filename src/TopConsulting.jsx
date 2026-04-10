@@ -3,19 +3,19 @@ import "./TopConsulting.css";
 
 const certifications = [
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/5/5a/ISO_9001_logo.png",
+    img: "https://img.freepik.com/premium-vector/iso-certified-company-emblem-design_1135235-2279.jpg?semt=ais_hybrid&w=740&q=80",
     text: "ISO Certified Company",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/0/0c/NITI_Aayog_Logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNbb7a9A_YBCGjW5bJqzgMHmDWVwpG0HeP7A&s",
     text: "Supported by NITI Aayog",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/2/2d/ACIC_RISE_logo.png",
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQEYBdNjnKLS4Q/company-logo_200_200/company-logo_200_200/0/1659523966730/acicrise_logo?e=2147483647&v=beta&t=eFvMOzxd7R9zjcnW0QBwK2rqvwsiXGReNFMezDwqGlo",
     text: "Supported by ACIC RISE",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Startup_India_Logo.png",
+    img: "https://img-cdn.publive.online/fit-in/640x430/filters:format(webp)/smstreet/media/media_files/W5cOkLDaOBwFhsoTrioW.jpg",
     text: "Supported by Startup India",
   },
 ];

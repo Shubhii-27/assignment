@@ -2,12 +2,30 @@ import React from "react";
 import "./Ratings.css";
 
 const ratingsData = [
-  { name: "Google Reviews", rating: 4.9, logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
-  { name: "Trustpilot", rating: 4.5, logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/Trustpilot_logo.svg" },
-  { name: "Justdial", rating: 4.9, logo: "https://upload.wikimedia.org/wikipedia/en/7/7e/Justdial_logo.png" },
-  { name: "Glassdoor", rating: 4.9, logo: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Glassdoor_logo.svg" },
-  { name: "Clutch", rating: 5.0, logo: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Clutch_Logo.png" },
-  { name: "GoodFirms", rating: 5.0, logo: "https://upload.wikimedia.org/wikipedia/en/4/45/GoodFirms_Logo.png" },
+  {
+    name: "Google Reviews", rating: 4.9,
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+  },
+  {
+    name: "Trustpilot", rating: 4.5,
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopVFlM5JhFwhdMZGDxaPjrWhMBPJ3UGYGoQ&s"
+  },
+  {
+    name: "Justdial", rating: 4.9,
+    logo: "https://content.jdmagicbox.com/comp/def_content_category/justdial-branches/replace-just-dial-ltd-gotri-road-vadodara-search-engine-1gh6befeyj-picsart-aiimageenhancer-2--justdial-branches-3-rx9t1.jpg"
+  },
+  {
+    name: "Glassdoor", rating: 4.9,
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ0fUyFrf74QQsi7m6ONQFRnEc-JGPJtdbwA&s"
+  },
+  {
+    name: "Clutch", rating: 5.0,
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6n7XBEXA5VGmSC6hVphNjsJGSlVFfpX5RA&s"
+  },
+  {
+    name: "GoodFirms", rating: 5.0,
+    logo: "https://assets.goodfirms.co/static/img/goodfirms-social-share.jpg"
+  },
 ];
 
 const Ratings = () => {

@@ -14,7 +14,7 @@ const LandingSection = () => {
           </h1>
 
           <p>
-            Trusted by 300+ businesses, Makes360 delivers custom web, app & 
+            Trusted by 300+ businesses, Makes360 delivers custom web, app &
             marketing solutions backed by real results.
           </p>
 
@@ -22,7 +22,7 @@ const LandingSection = () => {
           <div className="certifications">
             <img src="https://source.unsplash.com/100x50/?certificate&sig=1" alt="" />
             <img src="https://source.unsplash.com/100x50/?google,logo&sig=2" alt="" />
-            <img src="https://source.unsplash.com/100x50/?microsoft,logo&sig=3" alt="" />
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=100&h=50&fit=crop" alt="" />
           </div>
 
           <p className="rating">
