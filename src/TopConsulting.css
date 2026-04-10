@@ -1,0 +1,173 @@
+/* ===== TopConsulting.css ===== */
+
+/* ===== Main Section ===== */
+.top-consulting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #141e61, #3c4fe0);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ===== Background Animation ===== */
+.top-consulting::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+  animation: rotate 25s linear infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ===== Inner Container ===== */
+.top-consulting .container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+.top-consulting h2 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* ===== Paragraph ===== */
+.top-consulting p {
+  max-width: 750px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #dcdcff;
+}
+
+/* ===== Grid Layout ===== */
+.certifications {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 25px;
+  width: 100%;
+  justify-items: center;
+}
+
+/* ===== Card ===== */
+.cert-item {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 25px 15px;
+  width: 100%;
+  max-width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Image */
+.cert-item img {
+  width: 70px;
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
+}
+
+/* Text */
+.cert-item p {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ===== Hover Effects ===== */
+.cert-item:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cert-item:hover img {
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* ===== Tablet ===== */
+@media (max-width: 992px) {
+  .top-consulting {
+    padding: 70px 20px;
+  }
+
+  .top-consulting h2 {
+    font-size: 2.3rem;
+  }
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+  .top-consulting {
+    padding: 60px 15px;
+  }
+
+  .top-consulting h2 {
+    font-size: 2rem;
+  }
+
+  .top-consulting p {
+    font-size: 0.95rem;
+  }
+
+  .cert-item {
+    max-width: 150px;
+    padding: 20px 10px;
+  }
+}
+
+/* ===== Small Mobile ===== */
+@media (max-width: 480px) {
+  .top-consulting h2 {
+    font-size: 1.6rem;
+  }
+
+  .top-consulting p {
+    font-size: 0.9rem;
+  }
+
+  .certifications {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cert-item {
+    max-width: 130px;
+    padding: 15px 10px;
+  }
+
+  .cert-item img {
+    width: 60px;
+  }
+}
