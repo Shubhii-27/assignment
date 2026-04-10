@@ -56,7 +56,7 @@ const LandingSection = () => {
             ></textarea>
 
             <div className="recaptcha">
-              <input type="checkbox" /> I'm not a robot
+              <span>  <input type="checkbox" /> I'm not a robot </span> 
             </div>
 
             <button type="submit" className="quote-btn">
